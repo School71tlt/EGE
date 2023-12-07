@@ -1,4 +1,4 @@
-damirlox = []
+some_list = []
 for n in range(1, 500):
     s = bin(n)[2:]
     if n % 3 == 0:
@@ -7,6 +7,6 @@ for n in range(1, 500):
         s = s + bin((n % 3) * 3)[2:]
     r = int(s, 2)
     if r > 151:
-        damirlox.append(r)
-print(min(damirlox))
+        some_list.append(r)
+print(min(some_list))
 
